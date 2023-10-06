@@ -1,4 +1,6 @@
-### Hi there 👋
+## Hello!
+
+I'm currntly an undergraduate student at Arkansas Tech University. I study Phyiscs and Vocal Music. I'm using GitHub primarily for version control of some personal projects and documents.
 
 <!--
 **XcgsdV/XcgsdV** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
