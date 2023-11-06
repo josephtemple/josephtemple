@@ -7,60 +7,121 @@
 \usepackage{graphicx}
 \usepackage{multicol}
 \usepackage{xparse}
-\usepackage[margin=1.24in]{geometry}
+\usepackage[margin=1in]{geometry}
+\usepackage[parfill=0pt]{parskip} % Remove paragraph indentation
+\usepackage{titlesec}
+\usepackage{bold-extra}
+\pagestyle{empty}
 
 
 %Math and Science
-\usepackage{bbm}
-\usepackage{amsmath}
-\usepackage{siunitx}
-\usepackage{diffcoeff}
-\usepackage[version=4]{mhchem}
+%\usepackage{bbm}
+%\usepackage{amsmath}
+%\usepackage{siunitx}
+%\usepackage{diffcoeff}
+%\usepackage[version=4]{mhchem}
 
 
 %Plotting
-\usepackage{tikz}
-\usepackage{pgfplots}
-\usepackage{pgfplotstable}
-\usepackage{csvsimple}
-\usepackage{circuitikz}
+%\usepackage{tikz}
+%\usepackage{pgfplots}
+%\usepackage{pgfplotstable}
+%\usepackage{csvsimple}
+%\usepackage{circuitikz}
 
 
 %Package configuration
 \PassOptionsToPackage{colorlinks=true, allcolors=blue}{hyperref}
-\sisetup{per-mode = fraction, list-final-separator = {, and }, group-digits=integer}
-\pgfplotsset{compat=1.18}
+%\titleformat{\section}[hang]{\bfseries\scshape}{\thesection}{2ex}{}[]
+%\sisetup{per-mode = fraction, list-final-separator = {, and }, group-digits=integer}
+%\pgfplotsset{compat=1.18}
 
+\newcommand{\BigSmallCaps}[2]{
+    \textbf{#1}\bfseries\scshape{#2}
+}
+
+\newcommand{\rSection}[2]{
+    \section*{\textbf{#1}\bfseries\scshape{#2}}\hrule
+}
 
 \begin{document}
 \begin{center}
-\huge
-\textbf{ASSIGNMENT TITLE}
+    \Huge
+    \textbf{\BigSmallCaps{J}{oseph} \BigSmallCaps{T}{emple}}
+    \vspace{1mm}
 
-
-\large
-\textbf{POSSIBILE SUBTITLE (optional)}
-\vspace{1.5mm}
-
-
-\huge
-\textbf{ASSIGNMENT TYPE (optional)}
-\vspace{3mm}
-
-
-\large
-\textbf{Joseph Temple}
-\vspace{1mm}
-
-
-\textbf{COURSE CODE}
-\vspace{1mm}
-
-
-\textbf{DATE}
-\vspace{1cm}
+    \large
+    \textbf{jtemple2@atu.edu \quad josepht0615@gmail.com \quad (501) 581-2301}
+    \vspace{3mm}
 \end{center}
 
+\rSection{P}{rofile}
+Ambitious second-year undergraduate physics student pursuing an academic career in the physical sciences. Research interests include 
+theoretical and computational biophysics, acoustics, and complex systems. Key strengths include efficient balancing of several 
+responsibilities and an intrinsic motivation to learn.
 
-\section{FIRST SECTION}
+\rSection{E}{ducation}
+
+\textbf{Arkansas Tech University} \hfill Russellville, AR
+
+\vspace{-2mm}
+\emph{B.S. in Physics with minor in Mathematics, B.A. in Music $\vert$ GPA: $4.0$ \hfill Expected 2026}
+
+
+\rSection{E}{xperience}
+\textbf{ATU Physics Department}
+
+\vspace{-2mm}
+\emph{Independent Study \hfill Jan. 2024 - Present}
+
+\begin{itemize}
+    \item Explored wave equation solutions to something something math math math.
+\end{itemize}
+
+
+\vspace{2mm}
+\emph{Teaching Assistant for Physics 1 Lab \hfill Aug. 2023 - Dec. 2023}
+
+\begin{itemize}
+    \item Graded assignments and lab reports, providing constructive feedback to help students improve 
+    their understanding of physical principles.
+    \item Guided student peers through difficulties encountered in introductory mechanics experiments.
+\end{itemize}
+
+\rSection{A}{ctivities}
+%\textbf{ATU Physics Department}
+
+
+%\vspace{3mm}
+
+\textbf{ATU Physics Club} %\hfill Aug. 2022 - May 2024
+
+\vspace{-2mm}
+\emph{Vice President \hfill Aug. 2023 - Present}
+
+\begin{itemize}
+    \item Facilitated discussions to generate ideas for club events, projects, and outreach initiatives.
+    \item Showcased physical demonstrations to inspire interest in science among the wider campus community.
+\end{itemize}
+
+
+
+\rSection{T}{echnical Skills}
+
+\begin{itemize}
+    \item Object-oriented programming in C\texttt{++}. (Intermediate)
+    \item Numerical computing in Python using \verb|numpy|, \verb|matplotlib|, and \verb|scipy|. (Beginner)
+    \item Proficiency with \LaTeX \ using \verb|tikz|, \verb|pgfplots|, \verb|csvsimple|, etc.
+\end{itemize}
+
+
+
+
+\rSection{R}{eferences}
+\textbf{Dr. Jessica Young}, Associate Professor of Physics \hfill \verb|jyoung35@atu.edu|
+
+\textbf{Dr. Jon Clements}, Professor of Music \hfill \verb|jclements@atu.edu|
+
+\textbf{Dr. Matthew Hankins}, Assistant Professor of Physics \hfill \verb|mhankins1@atu.edu|
+
 \end{document}
