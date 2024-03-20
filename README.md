@@ -1,6 +1,7 @@
-## Hello!
+## Hey y'all!
 
-I'm currently an undergraduate student at Arkansas Tech University. I'm majoring Phyiscs and Vocal Music, but I try to study just about everything I find interesting! I'm using GitHub primarily for version control of some personal projects and documents.
+I'm currently an undergraduate student at Arkansas Tech University. I'm majoring Phyiscs and Vocal Music, but I try to study just about everything I find interesting! That includes mathematics, bioinformatics, biochemistry, regular chemistry, optimal Pokemon team design, and really anything cool that I can find time to devote to.
+I'm using GitHub primarily for version control of some personal projects and documents.
 
 <!--
 **XcgsdV/XcgsdV** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
