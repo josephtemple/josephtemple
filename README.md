@@ -1,6 +1,7 @@
 ## Hey y'all!
 
-I'm currently an undergraduate student at Arkansas Tech University. I'm majoring Phyiscs and Vocal Music, but I try to study just about everything I find interesting! That includes mathematics, bioinformatics, biochemistry, regular chemistry, optimal Pokemon team design, and really anything cool that I can find time to devote to.
+I'm currently an undergraduate student at Arkansas Tech University. I'm majoring Phyiscs and Vocal Music, but I try to study just about everything I find interesting! That includes physics, mathematics, bioinformatics, biochemistry, molecular dynamics simulation, music theory, piano, and really anything cool that I can find time to devote to.
+I hope to pursue theoretical/computational biophysics in graduate school.
 I'm using GitHub primarily for version control of some personal projects and documents.
 
 <!--
